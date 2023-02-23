@@ -145,5 +145,11 @@
 //	     scanf("%d", &n);
 //	     hannuota(n, "жљзг1", "жљзг2", "жљзг3");
 //	     return 0;
-//	
+////	
+////}
+//int main()
+//{
+//	printf("a=%d", 10);
+//	system("pause");
+//	return 0;
 //}
