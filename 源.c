@@ -153,3 +153,28 @@
 //	system("pause");
 //	return 0;
 //}
+//int main()
+//{
+//	int a, b;
+//	scanf("%d%d", &a, &b);
+//	printf("a=%d,b=%d", a, b);
+//	system("pause");
+//	return 0;
+//}
+//int main()
+//{
+//	int x;
+//	int *p=&x;
+//	scanf("%d", p);
+//	printf("%d", x);
+////	system("pause");
+////	return 0;
+////}
+//int main()
+//{
+//	int a, b;
+//	scanf("%d,%d", &a, &b);
+//	printf("%d,%d", a, b);
+//	system("pause");
+//	return 0;
+//}
