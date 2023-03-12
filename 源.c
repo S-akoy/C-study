@@ -178,3 +178,19 @@
 //	system("pause");
 //	return 0;
 //}
+//一定要声明函数才可以使用
+//void _Print1(void);
+//int main(void)
+//{
+//	_Print1();
+//	system("pause");
+//	return 0;
+//}
+//
+////定义一个打印函数
+//void _Print1(void)
+//{
+//	printf(".........\n");
+//	printf("+++++++++\n");
+//	return;
+//}
