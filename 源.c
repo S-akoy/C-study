@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <Windows.h>
+#include <windows.h>
 
 
 //int mak(a, b)
@@ -193,4 +193,55 @@
 //	printf(".........\n");
 //	printf("+++++++++\n");
 //	return;
+////}
+//void _printint(int a);
+//int main()
+//{
+//	int insert = 0;
+//	printf("输入想要打印到的数值>");
+//	scanf("%d", &insert);
+//	_printint(insert);
+//	system("pause");
+//	return 0;
 //}
+//void _printint(int a)
+//{
+//	int i = 0;
+//	for (i = 0; i <= a; i++)
+//	{
+//		if (i == 0)
+//		{
+//			Sleep(1000);
+//			printf("%d\n", i);
+//			
+//		}
+//		else
+//		{
+//			Sleep(1000);
+//			printf("%d\n", i);
+//		}
+//	}
+//	return;
+//}
+//一下为未知错误代码
+/*void function_1(int b, int c[]);
+int main(int argc, char **argv)
+{
+	int a_score[6] = { 0 };
+	int i = 1;
+	int number = 0;
+	scanf("%d", &number);
+	function_1(number,a_score[6]);
+	for (i = 1; i <= number; i++) {
+		printf("%d", a_score[i]);
+	}
+	return 0;
+}
+void function_1(int b,int c[])
+{
+	int i = 1;
+	for (i = 1; i <= b; i++) {
+		c[i - 1] = i;
+	}
+}
+*/
