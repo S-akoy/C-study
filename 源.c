@@ -244,4 +244,47 @@ void function_1(int b,int c[])
 		c[i - 1] = i;
 	}
 }
-*/
+//*/
+//#include "stdio.h"
+//#include "stdlib.h"
+//void function_1(int b, int c[]);
+//int main(void)
+//{
+//	/*int _9gongge[3][3] = { { 1, 2, 3 }, { 1, 2, 3 }, { 1, 2, 3 } };*/
+//	int a [2][4] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+//	int i = 0;
+//	int j = 0;
+//	int l = 0;
+//	int gamemode = 0;
+//	/*for (h = 1; h <= 2; h++)
+//	{
+//		for (l = 1; l <= 4; l++)
+//		{
+//			printf("%d\n", app[h][l]);
+//		}
+//	}*/
+//	//printf("%d", app[1][2]);
+//	for (i = 0; i < 2; i++)
+//	{
+//		for (j = 0; j <= 4; j++)
+//		{
+//			printf("a[%d][%d] = %d\n", i, j, a[i][j]);
+//		}
+//	}
+//	/*printf("游戏加载中请稍后");
+//	system("cls");
+//	printf("请选择下列选项：\n1 开始游戏\n2 退出游戏\n->");
+//	scanf("%d", &gamemode);
+//	system("cls");
+//	if (gamemode == 1) {
+//	for(h = 1; h <= 3; h++)
+//	{for (l = 1; l <= 3; l++) {
+//	printf("%d",_9gongge[h][l]);
+//	}
+//	}
+//	}
+//	else ;
+//	*/
+//	system("pause");
+//	return 0;
+//}
