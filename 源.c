@@ -287,4 +287,23 @@ void function_1(int b,int c[])
 //	*/
 //	system("pause");
 //	return 0;
+////}
+//void helloworld(void);
+//int main(void)
+//{
+//	helloworld();
+//	helloworld();
+//	helloworld();
+//	system("pause");
+//	return 0;
+//}
+//void helloworld(void)
+//{
+//	static int b = 0;
+//	int a = 0;
+//	b++;
+//	a++;
+//	printf("\t%d\n", b);
+//	printf("\t%d\n", a);
+//	printf("\thello world\n");
 //}
