@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <windows.h>
-
+#include <string.h>
 
 //int mak(a, b)
 //{
@@ -306,4 +306,75 @@ void function_1(int b,int c[])
 //	printf("\t%d\n", b);
 //	printf("\t%d\n", a);
 //	printf("\thello world\n");
+//}
+//extern int y;
+//int main()
+//{
+//	int a = 15;
+//	int b = 23;
+//	Add1(a, b);
+//	system("pause");
+//	return 0;
+//}
+//int main()
+//{
+//	int a = 0;
+//	printf("%d\n",a);
+//	printf("%p",&a);
+//	system("pause");
+//	return 0;
+//}
+//#define A 1
+//int main()
+//{
+//	int tickets_A[] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+//	char input = 0;
+//	int number_1 = 0;
+//	int i = 0;
+//	int s = 0;
+//	int flag = 0;
+//	int choice = 0;
+//start:
+//	printf("请输入你想要选择的服务>\n1.退出\n2.购票\n>:");
+//	scanf("%c", &choice);
+//	if (choice == 1)
+//		goto loop;
+//	printf("请输入您的目的地>:");
+//	getchar();
+//	scanf("%d\n", &input);
+//	Sleep(1000);
+//	if (strcmp (input,"A") == 1)
+//	{
+//		system("cls");
+//		printf("请输入你想购买的张数>:");
+//		getchar();
+//		Sleep(1000);
+//		scanf("%d",&number_1);
+//		if (number_1 > 15)
+//		{
+//			printf("车票不足\n");
+//			system("pause");
+//			goto loop;
+//		}
+//		else
+//		{
+//			for (int i = 0; i <= number_1; i++)
+//			{
+//				tickets_A[15 - i] = 0;
+//			}
+//			system("cls");
+//			printf("请付款%d\n",58*number_1);
+//			system("pause");
+//		}
+//	}
+//	for (s = 0; s <= 15; s++)
+//	{
+//		if (tickets_A[s] = 1)
+//		{
+//			flag++;
+//		}
+//	}
+//	printf("还剩%d张票\n", flag);
+//	loop:
+//		return 0;
 //}
