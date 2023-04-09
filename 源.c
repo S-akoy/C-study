@@ -378,3 +378,48 @@ void function_1(int b,int c[])
 //	loop:
 //		return 0;
 //}
+///*int* p;
+//	int a = 0;
+//	p = &a;
+//	*p = 1;
+//	printf("%d",a);
+//	system("pause");
+//	return 0;*/
+//	/*int a[5] = {0,0,0,0,0};
+//	int *p;
+//	p = a ;
+//	*p = 10;
+//	printf("%d\n",a);
+//	printf("%d\n",p);
+//	printf("%d",a[0]);
+//	system("pause");*/
+//	/*int a[3] = {1,4,5};
+//	int *p;
+//	p = &a[0];
+//	printf("%d,%d,%d",1,2,3);
+//	system("pause");*/
+//	//int arr[3][3]={0,6,14,21,89,20,11,26,33};
+//	//int *p;
+//	//p=arr;
+//	//printf("值为：%d\n",arr[0][1]);
+//	//printf("值为：%d\n",*(arr[0]+1));
+//	//printf("值为：%d\n",*(*(arr+0)+1));
+//	//printf("值为：%d\n",*(*(arr+1)+1));
+//	//printf("值为：%d\n",(*(arr+0))[1]);
+//	//printf("值为：%d\n",*(arr+0)[1]);
+//	//printf("值为：%d\n",*arr);
+//	//printf("值为：%d\n",**(arr+1));
+//	//printf("值为：%d\n",**arr);
+struct student
+{
+	char id;
+	int score;
+	char sexual;
+};
+int main(void)
+{
+	struct student Wan = {'3',96,'male'};
+	printf("%s",Wan.id);
+	system("pause");
+	return 0;
+}
