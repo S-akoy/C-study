@@ -410,16 +410,143 @@ void function_1(int b,int c[])
 //	//printf("值为：%d\n",*arr);
 //	//printf("值为：%d\n",**(arr+1));
 //	//printf("值为：%d\n",**arr);
-struct student
-{
-	char id;
-	int score;
-	char sexual;
-};
-int main(void)
-{
-	struct student Wan = {'3',96,'male'};
-	printf("%s",Wan.id);
-	system("pause");
-	return 0;
-}
+//struct student
+//{
+//	char id;
+//	int score;
+//	char sexual;
+//};
+//int main(void)
+//{
+//	char str[] = "wo diao ni ma de";
+//	printf("%d\n",strlen(str));
+//	printf("%d\n",sizeof(str));
+//	printf("%s\n",str);
+//	printf("%d\n",str);
+//	printf("%s\n",&str[0]);
+//	system("pause");
+//	int a = 19;
+//	printf("%d\n",a);
+//	printf("%d\n",&a);
+//	system("pause");
+//	char arr[] = "1,3,4,6,9,8";
+//	char arr1[] = {'A','B','C','\0'};
+//	char *p;
+//	char *p1;
+//	p1 = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0";
+//	p = arr;
+//	//*arr = '2';
+//	*p = '2';
+//	//arr[2] = '2';
+//	printf("%s\n",p1);
+//	printf("%d\n",sizeof(p1));
+//	printf("%p\n",strlen(p1));
+//	printf("%p\n",p1+1);
+//	system("pause");
+//	return 0;
+//}
+
+//int Count_char (char *a,int *count)
+//{
+//	int i = 0;
+//	int j = 0;
+//	for(i = 0;a[i] != '\0'; i++)
+//	{
+//		if (a[i] != ' ')
+//			*count++;
+//	}
+//	return *count;
+//}
+//void Sleep_report (char *a ,int num)
+//int main()
+//{
+//	int i = 0;
+//	int j = 0;
+//	int count = 0;
+//	int p = 0;
+//	char a[9] = "0";
+//	scanf("%s",a);
+//	Sleep_report(a,p);
+//	for(i = 0;a[i] != '\0'; i++)
+//	{
+//		if (a[i] != ' ')
+//			count++;
+//	}
+//	printf("%d",count);
+//	system("pause");
+//	return 0;
+//}
+//void Sleep_report (char a ,int num)
+//{
+//	int flag = 0;
+//	for (flag = 0;flag <=num ;flag ++)
+//	{
+//		printf("%c",*(a+flag));
+//		Sleep(300);
+//	}
+//}
+//void _output(char *HZ)
+//{
+//	int i = 0;
+//	int flag = strlen(HZ);
+//	for(i = 0;i <= flag;i++ )
+//	{
+//		printf("%c",HZ[i]);
+//		Sleep(200);
+//	}
+//}
+//int main()
+//{
+//	char Hanzi[1024] = {0};
+//	scanf("%s",Hanzi);
+//	_output(Hanzi);
+//	printf("%d",strlen(Hanzi));
+//	system("pause");
+//	return 0;
+//}
+//int main()
+//{
+//	char arr1[2048] = "hello world";
+//	char arr2[2048] = "fuck you world";
+//	int a = 0;
+//	a = sizeof(arr1);
+//	printf("%d",a);
+//	/*strcpy(arr1,arr2);
+//	printf("arr1 = %s\n",arr1);
+//	printf("arr2 = %s\n",arr2);*/
+//	system("pause");
+//	return 0;
+//}
+//int main()
+//{
+//	FILE *p;
+//	int i;
+//	char reading = {'0'};
+//	p = fopen("C:\\Users\\User\\Documents\\01001.txt","r+");
+//	for(i = 0;; i++)
+//	{
+//		reading = feof(p);
+//		printf("%c",reading);
+//	}
+//	if(p == NULL)
+//		printf("Open Failurr");
+//	fclose(p);
+//	system("pause");
+//	return 0;
+//}
+//int main()
+//{
+//	char password1[11] = "1121135611";
+//	char password[11];
+//	int i = 0;
+//	printf("请输入十位密码：");
+//	scanf("%s",password);
+//	i = strcmp(password,password1);
+//	if(strcmp(password,password1) != 0)
+//	{
+//		printf("failed");
+//	}
+//	printf("%d\n",i);
+//	system("pause");
+//	return 0;
+//}
